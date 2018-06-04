@@ -1,1 +1,65 @@
-font-family: 'Roboto Condensed', sans-serif;
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#container{
+	width: 500px;
+	margin: auto;
+	background: #d88e6c;
+	padding: 10px 30px;
+	border-radius: 3px;
+	color: #421930;
+	box-shadow: 3px 3px 10px 0px #9c9c9c;
+	height: 300px;
+}
+
+.title{
+	text-align: center;
+}
+
+.title h1{
+	line-height: 0px;
+	text-transform: uppercase;
+}
+
+.title h2{
+	font-weight: 300;
+	font-size: 22px;
+}
+
+#quiz{
+	text-indent: 55px;
+	/*display: none;*/
+}
+
+.button{
+	position: relative;
+	width: 85px;
+	height: 25px;
+	background: #f6e7ce;
+	text-align: center;
+	font-size: 16px;
+	line-height: 25px;
+	margin: 0 5px;
+	border-radius: 2px;
+	float: right;
+	box-shadow: 1px 1px 5px 0px #421930e8;
+	cursor: pointer;
+}
+
+.button.active{
+
+}
+
+.button a{
+	text-decoration: none;
+}
+
+#prev{
+	display: none;
+}
+
+#start{
+	display: none;
+}
+
