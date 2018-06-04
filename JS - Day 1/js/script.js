@@ -89,7 +89,7 @@
 	    var header = $('<h2>Question ' + (index + 1) + ':</h2>');
 	    qElement.append(header);
 	    
-	    var question = $('<p>').append(questions[index].question);
+	    var question = $('<h3>').append(questions[index].question);
 	    qElement.append(question);
 	    
 	    var radioButtons = createRadios(index);
