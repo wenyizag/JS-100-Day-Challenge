@@ -7,19 +7,20 @@
     question: "What is 3*6?",
     choices: [3, 6, 9, 12, 18],
     correctAnswer: 4
-  }, {
-    question: "What is 8*9?",
-    choices: [72, 99, 108, 134, 156],
-    correctAnswer: 0
-  }, {
-    question: "What is 1*7?",
-    choices: [4, 5, 6, 7, 8],
-    correctAnswer: 3
-  }, {
-    question: "What is 8*8?",
-    choices: [20, 30, 40, 50, 64],
-    correctAnswer: 4
-  }];
+  } //, {
+  //   question: "What is 8*9?",
+  //   choices: [72, 99, 108, 134, 156],
+  //   correctAnswer: 0
+  // }, {
+  //   question: "What is 1*7?",
+  //   choices: [4, 5, 6, 7, 8],
+  //   correctAnswer: 3
+  // }, {
+  //   question: "What is 8*8?",
+  //   choices: [20, 30, 40, 50, 64],
+  //   correctAnswer: 4
+  // }
+  ];
 
 	var questionCounter = 0; // tracks question number
 	var selections = []; //array contains user's choices
@@ -47,7 +48,7 @@
 	});
 
 	//Click handler for the 'prev' button
-	$('#prev').on(click, function(e){
+	$('#prev').on('click', function(e){
 		e.preventDefault();
 
 		if(quiz.is(':animated')){
@@ -58,6 +59,7 @@
 		displayNext();
 	});
 
+  // Click handler for the 'Start Over' button
 	$('#start').on('click', function(e){
 		e.preventDefault();
 
@@ -136,12 +138,11 @@
 				var scoreElem = displayScore();
 				quiz.append(scoreElem).fadeIn();
 				$('#next').hide();
-				$('#prev').hdie();
+				$('#prev').hide();
 				$('#start').show();
 			}
 		});
 	}
-
 
 	function displayScore(){
 		var score = $('<p>', {id: 'question'});
@@ -153,9 +154,12 @@
 			}
 		}
 
-		score.append('You got' + numCorrect + ' questions out of' + questions.length + 'right!');
-		return socre;
+
+		score.append('You got ' + numCorrect + ' questions out of ' + questions.length + ' right!');
+		return score;
 	}
+
+
 
 })();
 
