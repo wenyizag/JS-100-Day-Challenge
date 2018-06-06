@@ -8,4 +8,8 @@ This is a 100 Days JavaScript Challenge
 
 ## Day 2 - [Clock](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day2-Particals)
 <a href="https://imgflip.com/gif/2bmkhy"><img src="https://i.imgflip.com/2bmkhy.gif" title="made at imgflip.com"/></a>
-<br>Source: by [Winar](https://github.com/wesbos/JavaScript30/tree/master/02%20-%20JS%20and%20CSS%20Clock)
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/03%20-%20CSS%20Variables)
+
+## Day 3 - [Variables](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day3-Variables)
+<a href="https://imgflip.com/gif/2bqnqq"><img src="https://i.imgflip.com/2bqnqq.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/03%20-%20CSS%20Variables)
