@@ -1,0 +1,85 @@
+body{
+	background: #000;
+	margin:0;
+	font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    box-sizing: inherit;
+}
+
+.panels{
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+}
+
+.panel{
+	background: #efb31e;
+	box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+	text-align: center;		
+	background-position:center;
+	background-size:cover;
+	/*-- flex --*/
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center; 
+	align-items:center;  
+	/*-- transition --*/
+	transition: font-size 0.7s cubic-bezier(0.61, 0.22, 0.69, 0.27),
+				flex 0.7s cubic-bezier(0.42, 0, 0.78, 0.51);
+}
+
+.panel1{
+	background-image: url(../img/4.jpg);
+}
+.panel2{
+	background-image: url(../img/5.jpg);
+}
+.panel3{
+	background-image: url(../img/1.jpg);
+}
+.panel4{
+	background-image: url(../img/3.jpg);
+}
+.panel5{
+	background-image: url(../img/2.jpg);
+}
+
+.panel p{
+	text-transform: uppercase;
+	font-size: 1em;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.72), 0 0 14px #fea;
+    /*-- flex property --*/
+	margin: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	transition: transform .5s;
+}
+
+
+
+.panel p:nth-child(1){
+	transform: translateY(-100%);
+}
+.panel.open-active p:nth-child(1){
+	transform: translateY(0);
+}
+.panel p:nth-child(3){
+	transform: translateY(100%);
+}
+.panel.open-active p:nth-child(3){
+	transform: translateY(0);
+}
+.panel p:nth-child(2){
+	font-size: 2em;
+}
+
+.panel.open {
+  flex: 3;
+  font-size:40px;
+}
