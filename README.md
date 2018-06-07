@@ -13,3 +13,7 @@ This is a 100 Days JavaScript Challenge
 ## Day 3 - [Variables](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day3-Variables)
 <a href="https://imgflip.com/gif/2bqnqq"><img src="https://i.imgflip.com/2bqnqq.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/03%20-%20CSS%20Variables)
+
+## Day 4 - [Flex Panel](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day4-Flex%20Panel)
+<a href="https://imgflip.com/gif/2brh8z"><img src="https://i.imgflip.com/2brh8z.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)
