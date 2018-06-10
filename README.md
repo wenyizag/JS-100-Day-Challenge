@@ -21,3 +21,7 @@ This is a 100 Days JavaScript Challenge
 ## Day 5 - [Drum kit](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day5-Drum%20Kit)
 <a href="https://imgflip.com/gif/2by49b"><img src="https://i.imgflip.com/2by49b.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+
+## Day 6 - [Search](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day6-Search)
+<a href="https://imgflip.com/gif/2bzfis"><img src="https://i.imgflip.com/2bzfis.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/06%20-%20Type%20Ahead)
