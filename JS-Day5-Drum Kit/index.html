@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>JS-Day5-Drum Kit</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="keys">
+    <div class="first-row">
+        <div class="key" data-key="65">
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div class="key" data-key="68"> 
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+    </div>
+    <div class="second-row">
+        <div class="key" data-key="83">
+          <kbd>S</kbd>
+          <span class="sound">hihat</span>
+        </div>
+        <div class="key" data-key="70">
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>      
+    </div>
+	</div>
+
+  <audio data-key="65" src="sounds/clap.wav"></audio>
+  <audio data-key="83" src="sounds/hihat.wav"></audio>
+  <audio data-key="68" src="sounds/kick.wav"></audio>
+  <audio data-key="70" src="sounds/openhat.wav"></audio>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
