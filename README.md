@@ -17,3 +17,7 @@ This is a 100 Days JavaScript Challenge
 ## Day 4 - [Flex Panel](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day4-Flex%20Panel)
 <a href="https://imgflip.com/gif/2brh8z"><img src="https://i.imgflip.com/2brh8z.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/05%20-%20Flex%20Panel%20Gallery)
+
+## Day 5 - [Drum kit](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day5-Drum%20Kit)
+<a href="https://imgflip.com/gif/2by49b"><img src="https://i.imgflip.com/2by49b.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
