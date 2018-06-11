@@ -1,0 +1,35 @@
+.frame{
+	background: pink;
+}
+
+.empty{
+	display: inline-block;
+	margin: 20px 20px;
+	width: 160px;
+	height: 160px;
+	background: white;
+	border: solid 3px #ccc;
+}
+
+.fill{
+	position: relative;
+	top:5px;
+	left: 5px;
+	background-image: url('https://source.unsplash.com/random/150x150');
+	height: 150px;
+	width: 150px;
+	cursor: pointer;
+}
+
+.hold{
+	border: solid 5px #ccc;
+}
+
+.hover{
+	border-style: dashed;
+	background: #f4f4f4;
+}
+
+.invisible{
+	display: none;
+}
