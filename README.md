@@ -25,3 +25,7 @@ This is a 100 Days JavaScript Challenge
 ## Day 6 - [Search](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day6-Search)
 <a href="https://imgflip.com/gif/2bzfis"><img src="https://i.imgflip.com/2bzfis.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/06%20-%20Type%20Ahead)
+
+## Day 8 - [Drag and Drop](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day8-Drag%20and%20Drop)
+<a href="https://imgflip.com/gif/2c17ei"><img src="https://i.imgflip.com/2c17ei.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Traversy](https://codepen.io/bradtraversy/pen/odmVgN)
