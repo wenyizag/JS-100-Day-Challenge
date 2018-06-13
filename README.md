@@ -29,3 +29,9 @@ This is a 100 Days JavaScript Challenge
 ## Day 8 - [Drag and Drop](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day8-Drag%20and%20Drop)
 <a href="https://imgflip.com/gif/2c17ei"><img src="https://i.imgflip.com/2c17ei.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Traversy](https://codepen.io/bradtraversy/pen/odmVgN)
+
+## Day 10 - [Particles](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day10-Particles)
+<a href="https://imgflip.com/gif/2c6lm9"><img src="https://i.imgflip.com/2c6lm9.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Christopher](https://codepen.io/chriscourses/pen/MyaGvr)
+
+
