@@ -1,0 +1,41 @@
+body{
+	background: #ffd300;
+}
+
+.inputbox{
+	margin: 40px auto;
+	max-width: 450px;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.input{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.input:last-child{
+	border: none;
+}
+
+input[type="checkbox"] {
+	margin: 20px;
+}
+
+p{
+	display: flex;
+	flex: 1;
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+	margin: 0;
+	padding: 15px;
+	border-left: 1px solid #D1E2FF;
+	transition: background .1s ease-in-out;
+}
+
+input:checked + p{
+	background: #F9F9F9;
+	font-weight: 900;
+}
