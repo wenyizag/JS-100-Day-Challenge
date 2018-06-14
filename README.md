@@ -34,4 +34,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2c6lm9"><img src="https://i.imgflip.com/2c6lm9.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Christopher](https://codepen.io/chriscourses/pen/MyaGvr)
 
+## Day 11 - [Particles](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day11-Canvas)
+<a href="https://imgflip.com/gif/2c6vx9"><img src="https://i.imgflip.com/2c6vx9.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
+
 
