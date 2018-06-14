@@ -38,4 +38,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2c6vx9"><img src="https://i.imgflip.com/2c6vx9.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/08%20-%20Fun%20with%20HTML5%20Canvas)
 
+## Day 13 - [Multiple Checkboxes](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day13-Multiple%20Checkboxes)
+<a href="https://imgflip.com/gif/2c8m83"><img src="https://i.imgflip.com/2c8m83.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
+
 
