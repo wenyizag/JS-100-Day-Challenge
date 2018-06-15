@@ -42,4 +42,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2c8m83"><img src="https://i.imgflip.com/2c8m83.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes)
 
+## Day 14 - [Video Controls](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day14-Video%20Controls)
+<a href="https://imgflip.com/gif/2c99vs"><img src="https://i.imgflip.com/2c99vs.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)
+
 
