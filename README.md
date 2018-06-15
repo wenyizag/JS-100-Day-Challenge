@@ -46,4 +46,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2c99vs"><img src="https://i.imgflip.com/2c99vs.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/11%20-%20Custom%20Video%20Player)
 
+## Day 16 - [Window Scroll](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day16-Scroll)
+<a href="https://imgflip.com/gif/2cb2pw"><img src="https://i.imgflip.com/2cb2pw.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/13%20-%20Slide%20in%20on%20Scroll)
+
 
