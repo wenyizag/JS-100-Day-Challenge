@@ -54,4 +54,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2ccpl1"><img src="https://i.imgflip.com/2ccpl1.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/16%20-%20Mouse%20Move%20Shadow)
 
+## Day 20 - [LocalStorage](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day20-Localstorage)
+<a href="https://imgflip.com/gif/2cdsob"><img src="https://i.imgflip.com/2cdsob.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/15%20-%20LocalStorage)
+
 
