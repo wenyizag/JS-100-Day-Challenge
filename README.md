@@ -58,4 +58,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2cdsob"><img src="https://i.imgflip.com/2cdsob.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/15%20-%20LocalStorage)
 
+## Day 22 - [Speech Recognition](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day22-Speech%20Recognition)
+<a href="https://imgflip.com/gif/2ceim7"><img src="https://i.imgflip.com/2ceim7.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/20%20-%20Speech%20Detection)
+
 
