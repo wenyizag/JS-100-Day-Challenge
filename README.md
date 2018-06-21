@@ -62,4 +62,8 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2ceim7"><img src="https://i.imgflip.com/2ceim7.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Wesbos](https://github.com/wesbos/JavaScript30/tree/master/20%20-%20Speech%20Detection)
 
+## Day 23 - [Split Screen](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day23-Split%20Screen)
+<a href="https://imgflip.com/gif/2cni8x"><img src="https://i.imgflip.com/2cni8x.gif" title="made at imgflip.com"/></a>
+<br>Source: by [Envato Tuts+](https://codepen.io/tutsplus/pen/bWKMoK)
+
 
