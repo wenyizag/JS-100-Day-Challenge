@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+}
+
+.split{
+  position: relative;
+  width: 100%;
+  min-height: 45vw;
+  overflow: hidden;
+}
+
+.panel{
+  position: absolute;
+  width: 100vw;
+  min-height: 45vw;
+  background: #232323;
+  overflow: hidden;
+}
+
+/*讲一下为什么这个contents的位置如此重要，因为它是长宽固定的absolute，也是description和img的直接祖先！
+所以当我们调整top panel的宽度的时候，孩子description和img的位置不受top的影响。如果没有将contexts的
+位置设置为absolute，img的位置将随panel变化！（debug了n久。。。）*/
+.panel .contents{
+  position: absolute;
+  width: 100vw;
+  min-height: 45vw;
+
+}
+
+.panel .discription{
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+
+
+.panel img{
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.15);
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top{
+  background: #fecb5b;
+  z-index: 1;
+  width: 50vw;
+}
+
+.screwed .top{
+  transform: skew(-30deg);
+  margin-left: -1000px;
+  width: calc(50vw + 1000px);
+}
+
+.screwed .top .contents{
+  transform: skew(30deg);
+  margin-left: 1000px;
+}
+
+
+.top .discription{
+  left: 5%;
+}
+
+.down .discription{
+  right: 5%;
+  color: #fecc5b;
+}
+
+.line{
+  height: 100%;
+  position: absolute;
+  display: block;
+  background-color: purple;
+  width: 1px;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+}
+
+.line::before{
+  display: block;
+  width: 10px;
+  height: 60%;
+  border-left: 1px dashed purple;
+  z-index: 3;
+  content: '';
+  /*background: white;*/
+  /*padding: 5px;*/
+  transform: translateX(-5px);
+}
+
+.line::after{
+  display: block;
+  width: 5px;
+  height: 60%;
+  border-right: 1px dashed purple;
+  z-index: 3;
+  content: '';
+  transform: translateY(-40%);
+  bottom: 0;
+}
+
+.screwed .line{
+  transform: skew(-30deg) translateY(-50%);
+  height: 150%;
+  transform-origin: top;
+  top: 50%;
+}
+
+
+@media (max-width: 900px) {
+    body {
+        font-size: 75%;
+    }
+}
