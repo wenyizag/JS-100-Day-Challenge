@@ -66,4 +66,7 @@ This is a 100 Days JavaScript Challenge
 <a href="https://imgflip.com/gif/2cni8x"><img src="https://i.imgflip.com/2cni8x.gif" title="made at imgflip.com"/></a>
 <br>Source: by [Envato Tuts+](https://codepen.io/tutsplus/pen/bWKMoK)
 
+## Day 24 - [JSON and AJAX](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day24-JSON%20and%20AJAX)
+<a href="https://imgflip.com/gif/2k2isd"><img src="https://i.imgflip.com/2k2isd.gif" title="made at imgflip.com"/></a>
+
 
