@@ -21,7 +21,7 @@ roll.addEventListener('click', function(){
              currentScores[activePlayer].textContent = roundScore;
         }else{
             //change the rountScore to 0 and move to the next turn
-           nextTurn();
+            nextTurn();
         } 
     }
 })
@@ -33,12 +33,11 @@ hold.addEventListener('click', function(){
         scores[activePlayer].textContent = score[activePlayer];
 
         //check if there is a winner
-        if(score[activePlayer] >= 100){
+        if(score[activePlayer] >= 30){
             scores[activePlayer].textContent = "Winner!";
             status = false;
         }else{
             //next turn
-            roundScore = 0;
             nextTurn();
         } 
     }
@@ -48,7 +47,7 @@ hold.addEventListener('click', function(){
 newGame.addEventListener('click', init);
 
 function nextTurn(){
-    rountScore = 0;
+    roundScore = 0;
     players[activePlayer].classList.toggle("active");
     currentScores[activePlayer].textContent = 0;
     activePlayer = (activePlayer + 1) % 2;
