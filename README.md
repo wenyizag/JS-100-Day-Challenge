@@ -69,4 +69,10 @@ This is a 100 Days JavaScript Challenge
 ## Day 24 - [JSON and AJAX](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day24-JSON%20and%20AJAX)
 <a href="https://imgflip.com/gif/2k2isd"><img src="https://i.imgflip.com/2k2isd.gif" title="made at imgflip.com"/></a>
 
-
+## Day 25 - [The Pig Game](https://github.com/wenyizag/JS-100-Day-Challenge/tree/master/JS-Day25-The%20Pig%20Game)
+The Rules of Pig Game
+1. If the player rolls a 1, they score nothing and it becomes the next player's turn.
+2. If the player rolls any other number, it is added to their turn total and the player's turn continues.
+3. If a player chooses to "hold", their turn total is added to their score, and it becomes the next player's turn.
+4. Play whose score is larger than 30 wins
+<a href="https://imgflip.com/gif/2kd3m2"><img src="https://i.imgflip.com/2kd3m2.gif" title="made at imgflip.com"/></a>
