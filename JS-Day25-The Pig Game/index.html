@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Pig Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mycontainer">
+       
+        <!--        player 0       -->
+        <div class="player active" id="player-0 ">
+            <div class="name" id="name-0">player 1</div>
+            <div class="score" id="score-0">0</div>
+            <div class="current">
+                current
+                <div class="current-score" id="current-score-0">0</div>
+            </div>
+        </div>
+        <!--        player 1       -->
+        <div class="player" id="player-1 ">
+            <div class="name" id="name-1">player 2</div>
+            <div class="score" id="score-1">0</div>
+            <div class="current">
+                current
+                <div class="current-score" id="current-score-1">0</div>
+            </div>
+        </div>
+        <button class="init btn" id="new-game"><i class="fas fa-plus-circle"></i>new game</button>
+        <img src="" id="dice" alt="dice">
+        <button class="init btn" id="roll"><i class="fas fa-dice-d6"></i>roll dice</button>
+        <button class="init btn" id="hold"><i class="fas fa-lock"></i>hold</button>
+    </div>
+    <script src="pig-game.js"></script>
+</body>
+</html>

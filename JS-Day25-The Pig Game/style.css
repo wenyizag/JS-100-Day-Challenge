@@ -1,0 +1,114 @@
+body{
+    box-sizing: border-box;
+    --primary-color: #E25724;
+    background-color: #ECE4D9;
+    text-align: center;
+    height: 100vh;
+    color: #555;
+/*    font-family: Lato;*/
+    font-weight: 100;
+}
+*{
+    text-transform: uppercase; 
+    margin: 0;
+    padding: 0;
+}
+.mycontainer{
+    position: absolute;
+    width: 1000px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; 
+    padding: 0;
+}
+
+.player{
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    padding: 100px;
+/*    background-color: beige;*/   
+}
+
+.name{
+    font-size: 2.2rem;
+}
+.score{
+    position: relative;
+    font-size: 5.6rem;
+    color: var(--primary-color);
+    padding-bottom: 30%;
+}
+.current{
+    width: 50%;
+    padding: 12px;
+    background-color: var(--primary-color); 
+    margin: 0 auto;
+    font-weight: 100;
+}
+
+.current .current-score{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.player.active{
+    background-color: antiquewhite;
+    transition: all 0.3s;
+}
+
+.active .name{
+    font-weight: 300;
+    transition: all 0.5s;
+}
+
+.active .name::after{
+    content: "<=";
+    padding-left: 30px;
+    color: var(--primary-color);
+    font-weight: 100;
+    transition: all 0.5s;
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.6rem;
+    font-weight: 100;
+    background-color: transparent;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.btn:hover{
+    transform: scale(1.05) translateX(-50%);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+i{
+    color: var(--primary-color);
+    padding-right: 12px;
+    font-size: 1.8rem;
+}
+
+#dice{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    height: 20%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+#new-game{
+    top: 10%;
+}
+#roll{
+    top: 65%;
+}
+#hold{
+    top: 75%;
+}
